@@ -1,8 +1,93 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, Ctrl, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, lower, ␣, ⏎, raise, Alt]
-  lower:
-  - ↹
+  base:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - {t: ↹, h: mouse}
+  - A
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: Ctrl}
+  - {t: F, h: LSHIFT}
+  - {t: G, h: LEFT GUI}
+  - {t: H, h: RIGHT GUI}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: RIGHT ALT}
+  - ;
+  - BACKSPACE
+  - {t: '"', h: RIGHT ALT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''''
+  - Caps Word
+  - {t: (, h: Shift}
+  - {t: ENTER, h: '&lt 1'}
+  - {t: ␣, h: '&lt 2'}
+  - {t: ), h: Shift}
+  - Ctrl
+  navigation:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Insert
+  - ⌦
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Alt
+  - Ctrl
+  - LSHIFT
+  - {t: Gui, h: toggle}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - Home
+  - Page Down
+  - Page Up
+  - End
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Shift
+  - ''
+  symbols:
+  - +
   - '1'
   - '2'
   - '3'
@@ -13,39 +98,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ⌫
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui
-  - {type: held}
-  - ␣
-  - ⏎
-  - {t: ▽, type: trans}
-  - Alt
-  raise:
-  - ↹
+  - '-'
+  - '='
   - '!'
   - '@'
   - '#'
@@ -53,37 +107,68 @@ layers:
   - '%'
   - ^
   - AMPS
-  - KP MULTIPLY
+  - '*'
   - (
   - )
-  - ⌫
-  - Ctrl
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
-  - '-'
-  - '='
+  - '|'
+  - '"'
+  - '`'
+  - '~'
+  - ''''
+  - '{'
   - '['
   - ']'
-  - \
-  - '`'
-  - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
   - '}'
-  - '|'
-  - '~'
-  - Gui
-  - '&studio_unlock'
-  - ␣
-  - ⏎
-  - {t: '&studio_unlock', type: held}
+  - <
+  - '>'
+  - /
+  - \
+  - ''
+  - (
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - )
+  - ''
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - Alt
+  - Ctrl
+  - Shift
+  - LEFT GUI
+  - Mouse ←
+  - Mouse ↓
+  - Mouse ↑
+  - Mouse →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
