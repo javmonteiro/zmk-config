@@ -39,8 +39,8 @@ layers:
   - ''''
   - Caps Word
   - {t: (, h: Shift}
-  - {t: ENTER, h: '&lt 1'}
-  - {t: ␣, h: '&lt 2'}
+  - {t: ENTER, h: navigation}
+  - {t: ␣, h: symbols}
   - {t: ), h: Shift}
   - Ctrl
   navigation:
@@ -82,7 +82,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - Shift
   - ''
@@ -126,7 +126,7 @@ layers:
   - ''
   - (
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - )
   - ''
   mouse:
