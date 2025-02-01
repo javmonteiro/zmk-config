@@ -1,7 +1,48 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  BAS: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, '-', ↹, A, S, D, F, G, H, J, K, L, ;, BACKSPACE, '''', Z, X, C, V, B, N, M, ',', ., /, '''', '$$mdi:apple-keyboard-command$$',
-    SYM, ␣, ⏎, NAV, '$$mdi:apple-keyboard-option$$']
+  BAS:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - ↹
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - BACKSPACE
+  - ''''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''''
+  - $$mdi:apple-keyboard-command$$
+  - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ENTER, h: NAV}
+  - {t: ␣, h: SYM}
+  - {t: ), h: RIGHT SHIFT}
+  - $$mdi:apple-keyboard-option$$
   SYM:
   - +
   - '1'
@@ -40,9 +81,9 @@ layers:
   - /
   - \
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
+  - {t: ▽, type: trans}
   - ␣
-  - ⏎
+  - {t: ⏎, type: held}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   NAV:
@@ -52,8 +93,8 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - AMPS
+  - INSERT
+  - DELETE
   - KP MULTIPLY
   - (
   - )
@@ -64,10 +105,10 @@ layers:
   - '&mkp LCLK'
   - {t: ▽, type: trans}
   - '&mkp RCLK'
-  - '-'
-  - '='
-  - '['
-  - ']'
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - \
   - '`'
   - $$mdi:apple-keyboard-shift$$
@@ -84,7 +125,7 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - '&studio_unlock'
-  - ␣
+  - {t: ␣, type: held}
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - '&studio_unlock'
   - $$mdi:apple-keyboard-option$$
