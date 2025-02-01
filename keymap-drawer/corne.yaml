@@ -15,14 +15,14 @@ layers:
   - '-'
   - ↹
   - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: S, h: S}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: LEFT GUI}
+  - {t: H, h: RIGHT GUI}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: LEFT ALT}
   - ;
   - BACKSPACE
   - {t: '''', h: '$$mdi:apple-keyboard-option$$'}
