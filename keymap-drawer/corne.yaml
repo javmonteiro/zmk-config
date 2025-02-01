@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - BACKSPACE
-  - ''''
+  - {t: '''', h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - ''''
-  - $$mdi:apple-keyboard-command$$
+  - {t: Caps Word, h: LEFT GUI}
   - {t: (, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ENTER, h: NAV}
   - {t: ␣, h: SYM}
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
-  - ↹
+  - ''
   - ''
   - ''
   - ''
@@ -99,7 +99,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ↹
   - ''
   - LEFT ALT
   - $$mdi:apple-keyboard-control$$
@@ -112,10 +112,10 @@ layers:
   - ''
   - BACKSPACE
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - ''
   - Home
   - PAGE DOWN
@@ -131,10 +131,10 @@ layers:
   - {t: ▽, type: trans}
   control:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&bl BL_TOG'
+  - '&bl BL_CYCLE'
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - ''
   - ''
   - ''
