@@ -82,7 +82,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - control
+  - function
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,33 +126,33 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - control
+  - function
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  control:
+  function:
   - ''
-  - '&bl BL_TOG'
-  - '&bl BL_CYCLE'
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F11
+  - LEFT ALT
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - LCMD
+  - $$mdi:apple-keyboard-command$$
+  - RSHIFT
+  - $$mdi:apple-keyboard-control$$
+  - LEFT ALT
+  - F12
   - ''
   - ''
   - ''
