@@ -80,52 +80,95 @@ layers:
   - '>'
   - /
   - \
-  - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - ␣
-  - {t: ⏎, type: held}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - control
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NAV:
   - ↹
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - ''
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
   - INSERT
   - DELETE
-  - KP MULTIPLY
-  - (
-  - )
-  - $$mdi:backspace-outline$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ALT
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
+  - LEFT SHIFT
+  - RIGHT GUI
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - \
-  - '`'
-  - $$mdi:apple-keyboard-shift$$
+  - ''
+  - BACKSPACE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
+  - control
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
-  - {t: ␣, type: held}
-  - ⏎
-  - '&studio_unlock'
-  - $$mdi:apple-keyboard-option$$
+  control:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
