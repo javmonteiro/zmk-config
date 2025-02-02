@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   function:
-  - ''
+  - {t: control, h: toggle}
   - F1
   - F2
   - F3
@@ -142,7 +142,7 @@ layers:
   - F9
   - F10
   - ''
-  - ''
+  - {t: game, h: toggle}
   - F11
   - LEFT ALT
   - $$mdi:apple-keyboard-control$$
@@ -170,5 +170,91 @@ layers:
   - ''
   - {type: held}
   - {type: held}
+  - ''
+  - ''
+  game:
+  - ''
+  - ↹
+  - Q
+  - W
+  - E
+  - T
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - A
+  - S
+  - D
+  - F
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BAS, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ↹
+  - $$mdi:apple-keyboard-shift$$
+  - ␣
+  - ''
+  - ''
+  - ''
+  control:
+  - ''
+  - '&bl BL_TOG'
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BAS, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
